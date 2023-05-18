@@ -1,3 +1,8 @@
+Figma design:
+https://www.figma.com/file/DneLNgkjSEaXaYu3Y2fYo4/Untitled?type=design&node-id=0%3A1&t=RLL2ueKhGL3EblUt-1
+
+CBD E-Commerce Site
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
