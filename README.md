@@ -3,6 +3,8 @@ https://www.figma.com/file/DneLNgkjSEaXaYu3Y2fYo4/Untitled?type=design&node-id=0
 
 CBD E-Commerce Site
 
+Mobile First Design
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

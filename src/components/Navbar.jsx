@@ -13,7 +13,7 @@ const Navbar = () => {
         x: 0,
         opacity: 1,
     }}
-    transition={{ duration: 1.5 }}  className='w-full text-3xl font-bold text-[#00dfd4]'>PH</motion.h1>
+    transition={{ duration: 1.5 }}  className='w-full text-3xl font-bold text-[#00dfd4]'>Logo</motion.h1>
         <motion.ul
     initial={{
        x: 100,

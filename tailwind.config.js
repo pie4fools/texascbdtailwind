@@ -6,7 +6,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      display: ["Just Another Hand", "cursive"],
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/assets/Background.svg')",
+      }
+    },
   },
   plugins: [
   ],
