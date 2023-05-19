@@ -1,19 +1,21 @@
 import React from 'react'
-import HeroBG from '../assets/HeroBGimg.jpg'
 
 const Hero = () => {
   return (
     <>
-    <div className=''>
-    <img className='bg-cover absolute h-[640px]' src={HeroBG} alt="Green Background"></img>
+    <div className='hero-image'>
+      {/* Background image for hero page */}
     <div className='HeroBGcontainer'>
-        <h1 className='pt-10 relative text-center text-3xl z-10 font-display'><span className='text-[#1E9500]'>W</span>elcome to Texas<span className='text-[#1E9500]'> CBD</span></h1>
+        <h1 className='pt-10 relative text-center text-3xl font-display'><span className='text-[#1E9500]'>W</span>elcome to Texas<span className='text-[#1E9500]'> CBD</span></h1>
     </div>
     <div>
-        <p className='pt-20 pb-2 mx-auto text-center font-semibold relative font-Jost'>Current Deals</p>
+        <p className='pt-20 pb-2 mx-auto text-center relative font-Jost'>Current Deals</p>
     </div>
+        {/* Current deals box */}
         <div class='CurrentDealsBox'>
         </div>
+        {/* CTA button for products */}
+        <btn className='pt-6 flex relative w-[215px] rounded-full h-[73px] bg-[#1E9500] text-white text-center text-xl mx-auto justify-center font-Jost'>Products</btn>
     </div>
     </>
   )

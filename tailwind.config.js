@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Just Another Hand", "cursive"],
+      Jost: ["Jost"]
     },
     extend: {
       backgroundImage: {
