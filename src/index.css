@@ -33,7 +33,7 @@ code {
 .hero-image {
   background-image: url("./assets/HeroBGimg.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 640px; /* You must set a specified height */
+  height: 100vh; /* 100% of the current view heighth */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -42,7 +42,7 @@ code {
 .about-image {
   background-image: url("./assets/HeroBGimg.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 640px; /* You must set a specified height */
+  height: 100vh; /* 100% of the current view heighth */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
