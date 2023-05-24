@@ -30,6 +30,17 @@ code {
   border-radius: 48px;
 }
 
+.productBox {
+  position: relative;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 25px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+}
+
 .hero-image {
   background-image: url("./assets/HeroBGimg.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -40,9 +51,9 @@ code {
 }
 
 .about-image {
-  background-image: url("./assets/HeroBGimg.jpg"); /* The image used */
+  background-image: url("./assets/HeroBGimgopacity.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 100vh; /* 100% of the current view heighth */
+  height: auto; /* 100% of the current view heighth */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -59,52 +70,49 @@ code {
   margin: auto;
 }
 
-.productsbox2 {
+.productsbox1 {
   width: 100px;
   height: 100px;
-  position: relative;
   margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  
-  .productsbox3 {
+
+  .productsbox2 {
     width: 100px;
     height: 100px;
-    position: relative;
     margin: auto;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-  
-  .productsbox4 {
+
+  .productsbox3 {
     width: 100px;
     height: 100px;
-    position: relative;
     margin: auto; 
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-  .productsbox5 {
+
+  .productsbox4 {
     width: 100px;
     height: 100px;
-    position: relative;
     margin: auto;     
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .productsbox6 {
+
+    .productsbox5 {
     width: 100px;
     height: 100px;
-    position: relative;
     margin: auto;         
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .productsbox7 {
+
+    .productsbox6 {
     width: 100px;
     height: 100px;
-    position: relative;
     margin: auto;      
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
